@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="h-100 d-flex justify-content-center align-items-center">
           {children}
+          <Link
+            href="/help"
+            className="btn btn-primary btn-lg help-button"
+            type="button"
+          >
+            <b>?</b> Ayuda
+          </Link>
         </div>
       </body>
     </html>

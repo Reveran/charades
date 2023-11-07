@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HelpPage() {
   return (
     <div className="container my-5">
+      <Link href="/" className="btn btn-primary mb-3">
+        <b>‹</b> Inicio
+      </Link>
       <h2>Instrucciones:</h2>
       <div className="row g-2">
         <div className="col-3">
