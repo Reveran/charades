@@ -5,7 +5,7 @@ const data: Office[] = [
     office: "201",
     staff: [
       {
-        name: "Jacqeline Porras",
+        name: "Jacqueline Porras",
         entries: 2,
       },
       {
