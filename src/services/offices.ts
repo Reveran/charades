@@ -25,17 +25,17 @@ const data: Office[] = [
         entries: 1,
       },
       {
-        name: "Girl 1",
+        name: "Carolina Gonzales",
         entries: 1,
       },
       {
-        name: "Girl 2",
+        name: "Alejandra Torres",
         entries: 1,
       },
     ],
   },
   {
-    office: "202",
+    office: "203",
     staff: [
       {
         name: "Claudia Leal",
@@ -58,17 +58,17 @@ const data: Office[] = [
         entries: 1,
       },
       {
-        name: "Luisa Trejo",
+        name: "Ivonne Garcia",
         entries: 1,
       },
       {
-        name: "Ivonne Garcia",
+        name: "Briana Osorio",
         entries: 1,
       },
     ],
   },
   {
-    office: "506",
+    office: "501",
     staff: [
       {
         name: "Alexander Tumal",
@@ -95,13 +95,13 @@ const data: Office[] = [
         entries: 1,
       },
       {
-        name: "Juan",
+        name: "Juan Gonzalez",
         entries: 1,
       },
     ],
   },
   {
-    office: "606",
+    office: "601",
     staff: [
       {
         name: "Carlos Ossa",
@@ -109,10 +109,6 @@ const data: Office[] = [
       },
       {
         name: "Andres Gonzales",
-        entries: 1,
-      },
-      {
-        name: "Carolina Gonzales",
         entries: 1,
       },
       {
@@ -125,10 +121,6 @@ const data: Office[] = [
       },
       {
         name: "Dayhanna Rojas",
-        entries: 1,
-      },
-      {
-        name: "Alejandra Torres",
         entries: 1,
       },
       {
@@ -153,6 +145,10 @@ const data: Office[] = [
       },
       {
         name: "Sergio Londoño",
+        entries: 1,
+      },
+      {
+        name: "Luisa Trejo",
         entries: 1,
       },
     ],
