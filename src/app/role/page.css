@@ -1,0 +1,69 @@
+.role {
+  font-size: 2em;
+  color: #0d6efd;
+  text-align: center;
+  height: 2em;
+  line-height: 2em;
+}
+
+.role::marker {
+  content: none;
+}
+
+.topCloud {
+  background: linear-gradient(var(--app-bg), transparent);
+  width: 95%;
+  height: 50%;
+  position: absolute;
+}
+
+.topCloud::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--app-bg) 0%,
+    #0d6efd 25%,
+    #0d6efd 75%,
+    var(--app-bg) 100%
+  );
+  position: absolute;
+  bottom: 2em;
+}
+
+.bottomCloud {
+  background: linear-gradient(transparent, var(--app-bg));
+  width: 95%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomCloud::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--app-bg) 0%,
+    #0d6efd 25%,
+    #0d6efd 75%,
+    var(--app-bg) 100%
+  );
+  position: absolute;
+  top: 2em;
+}
+
+.list {
+  height: 25vh;
+  width: 100%;
+  overflow-y: hidden;
+  padding-top: calc(12.5vh - 1.5em);
+  padding-bottom: calc(12.5vh - 2em);
+  scroll-behavior: smooth;
+}
+
+.timer {
+  font-size: 5em;
+}

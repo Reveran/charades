@@ -1,0 +1,35 @@
+.SpinButton {
+  background-color: dodgerblue;
+  height: 40%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  z-index: 90;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.SpinButton span {
+  color: white;
+  line-height: 100%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.SpinButton::after {
+  content: "";
+  bottom: calc(100% - 0.2em);
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+
+  border-bottom: 1.7em solid dodgerblue;
+}
