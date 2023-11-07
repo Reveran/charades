@@ -19,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
-        <div className="h-100 d-flex justify-content-center align-items-center">
           {children}
           <Link
             href="/help"
@@ -28,7 +27,6 @@ export default function RootLayout({
           >
             <b>?</b> Ayuda
           </Link>
-        </div>
       </body>
     </html>
   );

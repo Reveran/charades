@@ -9,7 +9,7 @@ export default function HelpPage() {
       </Link>
       <h2>Instrucciones:</h2>
       <div className="row g-2">
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="card h-100">
             <Image
               src="/select.svg"
@@ -28,7 +28,7 @@ export default function HelpPage() {
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="card h-100">
             <Image
               src="/spin.svg"
@@ -48,7 +48,7 @@ export default function HelpPage() {
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="card h-100">
             <Image
               src="/alone.svg"
@@ -68,7 +68,7 @@ export default function HelpPage() {
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="card h-100">
             <Image
               src="/spectators.svg"
@@ -89,8 +89,8 @@ export default function HelpPage() {
         </div>
       </div>
       <h2 className="mt-5">Reglas:</h2>
-      <div className="row g-2">
-        <div className="col-3">
+      <div className="row g-2 mb-5">
+        <div className="col-12 col-md-3">
           <div className="alert h-100 alert-danger" role="alert">
             <h5 className="alert-heading">Silencio!.</h5>
             <p>
@@ -100,7 +100,7 @@ export default function HelpPage() {
             </p>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="alert h-100 alert-danger" role="alert">
             <h5 className="alert-heading">Ver y no tocar!.</h5>
             <p>
@@ -111,7 +111,7 @@ export default function HelpPage() {
             </p>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="alert h-100 alert-warning" role="alert">
             <h5 className="alert-heading">Orden en la sala!.</h5>
             <p>
@@ -123,7 +123,7 @@ export default function HelpPage() {
             </p>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-12 col-md-3">
           <div className="alert h-100 alert-warning" role="alert">
             <h5 className="alert-heading">Entre mas grandes mas duro caen!</h5>
             <p>

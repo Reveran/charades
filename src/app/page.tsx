@@ -21,10 +21,13 @@ function Menu({ offices }: MenuProps) {
 
 export default function Home() {
   return (
-    <div className="d-grid gap-3 col-8 col-md-6 col-lg-4">
-      <h2>Hola!</h2>
-      <h4>Vamos a jugar a las Charadas, seleccina tu oficina.</h4>
-      <Menu offices={data} />
+    
+    <div className="h-100 d-flex justify-content-center align-items-center">
+      <div className="d-grid gap-3 col-8 col-md-6 col-lg-4">
+        <h2>Hola!</h2>
+        <h4>Vamos a jugar a las Charadas, seleccina tu oficina.</h4>
+        <Menu offices={data} />
+      </div>
     </div>
   );
 }

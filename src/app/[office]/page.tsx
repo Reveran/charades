@@ -30,28 +30,6 @@ let colors = [
   "#FFD133",
   "#33FF78",
 ];
-/*[
-  "#F5A623",
-  "#F0E68C",
-  "#FFD700",
-  "#FFBCD9",
-  "#FF69B4",
-  "#FFB6C1",
-  "#87CEEB",
-  "#ADD8E6",
-  "#B0E0E6",
-  "#20B2AA",
-  "#98FB98",
-  "#90EE90",
-  "#FFD700",
-  "#FFEC8B",
-  "#FFE4C4",
-  "#FFDAB9",
-  "#E0FFFF",
-  "#FFF5EE",
-  "#FFEFD5",
-  "#FFF8DC",
-];*/
 
 const shuffle = (array: any[]) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -66,9 +44,6 @@ export default function PlayerPage({ params }: PlayerProps) {
     (office) => office.office == params.office
   )[0].staff;
 
-  //staff = shuffle(staff);
-  //colors = shuffle(colors);
-
   const chartData = {
     labels: staff.map((player) => player.name),
     datasets: [
@@ -80,13 +55,16 @@ export default function PlayerPage({ params }: PlayerProps) {
   };
 
   return (
-    <div className="row container">
-      <div className="col-2"></div>
-      <div className="col-5">
-        <Roulette chartData={chartData} />
-      </div>
-      <div className="col-5">
-        <PlayersTable data={chartData} />
+    
+    <div className="h-100 d-flex justify-content-center align-items-center">
+      <div className="row container mt-5">
+        <div className="col-2"></div>
+        <div className="col-5">
+          <Roulette chartData={chartData} />
+        </div>
+        <div className="col-5">
+          <PlayersTable data={chartData} />
+        </div>
       </div>
     </div>
   );
